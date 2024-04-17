@@ -1,0 +1,62 @@
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/container.css");
+@import url("components/card.css");
+
+body{
+  background-image: url("images/circle-5090539_1280.jpg");
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #102C57;
+  font-size: 20px;
+}
+
+.banner {
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+  padding: 200px;
+  margin: 0;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.banner h2 {
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 19px;
+  font-weight: bold;
+}
+.banner p {
+  font-size: 18px;
+  color:#E3FEF7;
+  opacity: .8;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  line-height: 150%;
+  font-style: normal;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+.text-center {
+  text-align: center;
+}
+a{
+  color:#E3FEF7;
+  font-size:18px;
+  font-weight:bold;
+  transition:0.3s ease;
+  }
+  a:hover{
+  color:#00acfb;
+  }
